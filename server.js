@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 4000; //
 const SELECTPDF_API_KEY = process.env.SELECTPDF_API_KEY; // 
 const SELECTPDF_API_URL = "https://selectpdf.com/api2/convert/";
 
-app.use(cors({ origin: "*" }));
+app.use(cors({ origin: "https://www.memorasmart.com/cv.html" }));
 app.use(bodyParser.json({ limit: "10mb" }));
 
 // Helper function to sanitize text for HTML
